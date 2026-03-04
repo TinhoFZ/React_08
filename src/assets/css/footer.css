@@ -1,0 +1,11 @@
+#top-line {
+    width: 100vw;
+    height: 1px;
+    background-color: #f2f2f2;
+    z-index: 1001;
+}
+
+#footer {
+    width: 100vw;
+    height: 40vh;
+}
