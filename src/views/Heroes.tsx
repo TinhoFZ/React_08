@@ -20,7 +20,7 @@ function Heroes () {
         <div id="heroes-container">
             {heroes.map((hero) => (
                 <div className="hero">
-                    <img id='hero-image' src={hero.image} alt={hero.name}/>
+                    <img id='hero-image' src={hero.image} alt={`image of ${hero.name}`} />
                     <h3>{hero.name}</h3>
                     <p>{hero.description}</p>
                 </div>

@@ -5,7 +5,7 @@ function Nav() {
     return(
         <>
             <nav id="nav">
-                <h2 id='site-name'>Meu Site</h2>
+                <h2 id='site-name'>DotA 2 Propaganda</h2>
 
                 <h3 id='first-h3'>Home</h3>
                 <h3>About</h3>

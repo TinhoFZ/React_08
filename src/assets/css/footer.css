@@ -6,6 +6,34 @@
 }
 
 #footer {
-    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 35vw;
+    padding-right: 35vw;
+    width: 30vw;
     height: 40vh;
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    width: 30%;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+li {
+    margin: 0 10px;
+}
+
+img {
+    width: 30px;
+    height: 30px;
 }
