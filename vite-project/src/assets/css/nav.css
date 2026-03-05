@@ -1,0 +1,28 @@
+#nav {
+    width: 100vw;
+    display: flex; 
+    gap: 20px;
+    position: fixed;
+    z-index: 1000;
+    background-color: #242424;
+}
+#site-name {
+    margin-left: 10px;
+}
+
+#first-h3 {
+    margin-left: auto;
+}
+
+#last-h3 {
+    margin-right: 10px;
+}
+
+#bottom-line {
+    width: 100vw;
+    height: 1px;
+    margin-top: 76px;
+    position: fixed;
+    background-color: #f2f2f2;
+    z-index: 1001;
+}
